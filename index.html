@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">NETFLIX</a>
+
+      <a href="#">Login</a>
+      <a href="#">Sign In</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h1>Unlimited movies, TV shows, and more</h1>
+      <p>Starts at $9.99. Cancel anytime.</p>
+      <form class="join-form">
+        <input type="email" placeholder="Email address" />
+        <button type="submit">Join Now</button>
+      </form>
+    </section>
+  
+    <section class="trending">
+      <h2>Trending Now</h2>
+      <div class="movie-grid">
+        <div class="movie-item">
+          <img src="/images/Screenshot 2024-11-04 100702.png" alt="Movie 1" data-movie-info="{'title': 'Red Sparrow', 'year': '2018', 'genre': 'Action, Thriller'}">
+        </div>
+        <div class="movie-item">
+          <img src="/images/Screenshot 2024-11-04 100721.png" alt="Movie 2" data-movie-info="{'title': 'Bachelorette', 'year': '2022', 'genre': 'Horror, Action'}">
+        </div>
+        <!-- Add more movie thumbnails here -->
+      </div>
+      <div class="movie-info-popup hidden">
+        <div class="movie-info-content">
+          <button class="close-button">&times;</button>
+          <h3 class="movie-title"></h3>
+          <p class="movie-details"></p>
+        </div>
+      </div>
+    </section>
+  
+    <section class="reasons-to-join">
+      <div class="reason-item">
+        <img src="stories-icon.svg" alt="Stories tailored to your taste">
+        <h3>Stories tailored to your taste</h3>
+      </div>
+      <div class="reason-item">
+        <img src="cancel-icon.svg" alt="Cancel or switch plans anytime">
+        <h3>Cancel or switch plans anytime</h3>
+      </div>
+      <div class="reason-item">
+        <img src="kids-icon.svg" alt="A place just for kids">
+        <h3>A place just for kids</h3>
+      </div>
+      <div class="reason-item">
+        <img src="devices-icon.svg" alt="For your phone, tablet, laptop and TV">
+        <h3>For your phone, tablet, laptop and TV</h3>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">What is Netflix?</button>
+          <div class="faq-answer">
+            <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How much does Netflix cost?</button>
+          <div class="faq-answer">
+            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $9.99 to $19.99 a month. No extra costs, no contracts.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items here -->
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <h3>Questions? Contact us.</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>Help Center</h3>
+        <ul>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>Account</h3>
+        <ul>
+          <li><a href="#">Ways to Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Only on Netflix</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>Media Center</h3>
+        <ul>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="language-selector">
+      <select>
+        <option value="en">English</option>
+        <!-- Add more language options -->
+      </select>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
